@@ -22,7 +22,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *passWordTextField;
 @property (weak, nonatomic) IBOutlet UISwitch *rememberPassWordsSwitch;
 @property (weak, nonatomic) IBOutlet UISwitch *automaticallyLoginSwitch;
-@property (nonatomic,strong) NSString * myStr;
 
 
 @end
