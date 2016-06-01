@@ -37,6 +37,7 @@
 -(void)setLoginTableView{
     self.tableView.backgroundView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"background"]];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    NSLog(@"**********************");
 }
 
 -(void)setUpSubViews{
