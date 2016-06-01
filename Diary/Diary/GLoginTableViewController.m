@@ -61,6 +61,10 @@
 }
 #pragma mark - 登陆点击
 - (IBAction)loginButtonClicked:(UIButton *)sender {
+    NSLog(@"111111111111111111111111111");
+    
+    
+    NSLog(@"2222222222222");
     
     if (self.accountTextField.text==nil||self.accountTextField.text.length<=0||self.passWordTextField.text==nil||self.passWordTextField.text.length<=0) {
         [KVNProgress showErrorWithStatus:@"请输入账户及密码"];
